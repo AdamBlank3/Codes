@@ -1,23 +1,101 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>My portfolio</title>
-        <style>
-            p, ul{
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                margin-left:10px;
-            }
-        </style>
-    </head>
-    <body style="background-color:dimgray; color: white;">
-        <header style="background-color: dimgray"><p><a href="/Portfolio/index.html"<b style="font-size: xx-large; text-decoration: none; color: white;">Ediga Varun sai</b></a><a href="/Portfolio/contact.html" style=" margin-left: 850px; font-size: 125%; text-decoration: none; color: white;"> Contact</a>
-            <a href="/Portfolio/about.html" style="margin-left: 50px; font-size: 125%;text-decoration: none; color: white;">About</a><a href="/Portfolio/projects.html" style="margin-left: 50px; font-size: 125%; text-decoration: none; color: white;">Projects</a>
-            <a href="/Portfolio/Portfolio_resume/index.html" target="_blank" style="margin-left: 50px; font-size: 125%; text-decoration: none; color: white;">Resume</a></p>
-        </header><br><br><br>
-        <img src="/Portfolio/Images/My photo.jpg" style="width:575px; height:575px;float: left;margin-left: 40px; border-radius: 1000%;"><br><br><br><br><br><br><br><br><br><br>
-        <h1 style="margin-left: 750px; word-spacing: 10px; font-size:300%; font-family:sans-serif;"> My name is Varun Sai Ediga</h1>
-        <p style="margin-left: 750px;">I am currently working in example company</p>
-        <button onclick="document.location='/Portfolio/contact.html' " style="background-color:darkgrey; color:white;padding: 15px 20px; text-align: center;text-decoration: none;display:inline-block;margin-left:130px; border-radius: 25px;">Contact Me </button>
-    </body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My portfolio</title>
+    <style>
+      p,
+      ul {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body style="background-color: dimgray; color: white">
+    <header style="background-color: dimgray">
+      <p>
+        <a href="/Portfolio/index.html"
+          ><b style="font-size: xx-large; text-decoration: none; color: white"
+            >Ediga Varun sai</b
+          ></a
+        >
+      </p>
+      <p
+        style="
+          display: flex;
+          justify-content: flex-end;
+          column-gap: 6rem;
+          padding-left: 20px;
+        "
+      >
+        <a
+          href="/Portfolio/contact.html"
+          style="font-size: 90%; text-decoration: none; color: white"
+        >
+          Contact</a
+        >
+        <a
+          href="/Portfolio/about.html"
+          style="font-size: 90%; text-decoration: none; color: white"
+          >About</a
+        ><a
+          href="/Portfolio/projects.html"
+          style="font-size: 90%; text-decoration: none; color: white"
+          >Projects</a
+        >
+        <a
+          href="/Portfolio/Portfolio_resume/index.html"
+          target="_blank"
+          style="font-size: 90%; text-decoration: none; color: white"
+          >Resume</a
+        >
+      </p>
+    </header>
+    <div
+      style="
+        display: flex;
+        align-items: center;
+        height: 90vh;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 6rem;
+      "
+    >
+      <div>
+        <img
+          src="/Portfolio/Images/My photo.jpg"
+          style="
+            width: 35vw;
+            height: 35vw;
+            border-radius: 50%;
+            min-width: 250px;
+            min-height: 250px;
+          "
+        />
+      </div>
+      <div>
+        <h1
+          style="word-spacing: 10px; font-size: 250%; font-family: sans-serif"
+        >
+          My name is Varun Sai Ediga
+        </h1>
+        <p>I am currently working in example company</p>
+        <button
+          onclick="document.location='/Portfolio/contact.html' "
+          style="
+            background-color: darkgrey;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 25px;
+          "
+        >
+          Contact Me
+        </button>
+      </div>
+    </div>
+  </body>
 </html>
